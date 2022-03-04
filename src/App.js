@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
-import ComponentA from './ComponentA';
+import NavBar from './Component/NavBar/NavBar'
 
 export default function App() {
   return (
     <div>
-      {' '}
-      <ComponentA />
+      <NavBar/>
     </div>
   );
 }
